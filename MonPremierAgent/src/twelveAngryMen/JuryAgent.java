@@ -21,5 +21,12 @@ import java.util.*;
  * @author sheep
  */
 public class JuryAgent extends Agent{
-    
+    //Age de l'agent
+    private int age;
+    //Opinion de l'agent sur la culpabilité de l'accusé (-1 < x < 1)
+    private float opinion;
+    //Valeur représentant la persuasion de l'agent, sa capacité à convaincre les autres jurés. (0 < x < 1)
+    private float persuation;
+    //Valeur représentant l'obstination de l'agent, sa capacité à ne pas changer d'avis. (0 < x < 1)
+    private float persist;
 }
